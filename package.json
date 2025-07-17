@@ -1,0 +1,80 @@
+{
+    "name": "dawikk-draughts",
+    "version": "0.2.0",
+    "description": "A comprehensive JavaScript library for draughts/checkers game logic with multiple variants support, FEN validation, and draw detection",
+    "main": "draughts.js",
+    "types": "draughts.d.ts",
+    "scripts": {
+      "test": "jest",
+      "build": "echo 'No build step needed'",
+      "prepublishOnly": "npm test",
+      "lint": "eslint draughts.js"
+    },
+    "keywords": [
+      "draughts",
+      "checkers",
+      "game",
+      "board-game",
+      "chess-like",
+      "game-engine",
+      "react-native",
+      "javascript",
+      "fen",
+      "pgn",
+      "international-draughts",
+      "american-checkers",
+      "russian-draughts",
+      "game-logic",
+      "move-validation",
+      "draw-detection"
+    ],
+    "author": {
+      "name": "DawiQ",
+      "email": "dawikk.apps@gmail.com"
+    },
+    "license": "MIT",
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/DawiQ/dawikk-draughts.git"
+    },
+    "bugs": {
+      "url": "https://github.com/DawiQ/dawikk-draughts/issues"
+    },
+    "homepage": "https://github.com/DawiQ/dawikk-draughts#readme",
+    "files": [
+      "draughts.js",
+      "draughts.d.ts",
+      "README.md",
+      "LICENSE"
+    ],
+    "engines": {
+      "node": ">=12.0.0"
+    },
+    "devDependencies": {
+      "jest": "^29.0.0",
+      "eslint": "^8.0.0"
+    },
+    "peerDependencies": {
+      "react": ">=16.8.0",
+      "react-native": ">=0.60.0"
+    },
+    "peerDependenciesMeta": {
+      "react": {
+        "optional": true
+      },
+      "react-native": {
+        "optional": true
+      }
+    },
+    "browserslist": [
+      "> 1%",
+      "last 2 versions",
+      "not dead"
+    ],
+    "jest": {
+      "testEnvironment": "node",
+      "collectCoverageFrom": [
+        "draughts.js"
+      ]
+    }
+  }
