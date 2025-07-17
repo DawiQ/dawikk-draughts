@@ -5,9 +5,7 @@
     "main": "draughts.js",
     "types": "draughts.d.ts",
     "scripts": {
-      "test": "jest",
       "build": "echo 'No build step needed'",
-      "prepublishOnly": "npm test",
       "lint": "eslint draughts.js"
     },
     "keywords": [
