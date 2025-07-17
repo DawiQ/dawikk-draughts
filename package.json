@@ -1,9 +1,8 @@
 {
     "name": "dawikk-draughts",
-    "version": "0.2.0",
+    "version": "0.2.1",
     "description": "A comprehensive JavaScript library for draughts/checkers game logic with multiple variants support, FEN validation, and draw detection",
     "main": "draughts.js",
-    "types": "draughts.d.ts",
     "scripts": {
       "build": "echo 'No build step needed'",
       "lint": "eslint draughts.js"
@@ -41,7 +40,6 @@
     "homepage": "https://github.com/DawiQ/dawikk-draughts#readme",
     "files": [
       "draughts.js",
-      "draughts.d.ts",
       "README.md",
       "LICENSE"
     ],
