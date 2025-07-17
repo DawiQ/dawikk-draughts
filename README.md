@@ -1,5 +1,5 @@
 
-# Draughts Engine
+# dawikk-draughts
 
 A comprehensive JavaScript library for draughts/checkers game logic with support for multiple variants, FEN validation, and advanced draw detection.
 
@@ -17,7 +17,7 @@ A comprehensive JavaScript library for draughts/checkers game logic with support
 ## Installation
 
 ```bash
-npm install draughts-engine
+npm install dawikk-draughts
 ```
 
 ## Quick Start
